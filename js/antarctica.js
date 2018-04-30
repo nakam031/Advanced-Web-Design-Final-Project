@@ -8,11 +8,18 @@ $(document).ready(function() {
             var x = Math.floor(Math.random()*image.length);
             $(".imagemessage").html(message[x]);
             $(".homeimage").css({"background-image":"url(image/"+image[x]+")"});
-      
+
+       $("#home").click(function(){
+            $(".homeimage").css({"display":"inline-block"});
+            $("#understand").css({"display":"none"});
+            $("#one, #two, #three, #four").css({"text-decoration": "none"});           
+      });     
 
       $("#one").click(function() {
             $("#one").css({"text-decoration": "underline","color":"#000"});
             $("#two, #three, #four").css({"text-decoration": "none"});
+            $(".homeimage").css({"display":"none"});
+            $("#understand").css({"display":"inline-block"});
       });
 
       $("#two").click(function() {
@@ -29,6 +36,7 @@ $(document).ready(function() {
             $("#four").css({"text-decoration": "underline","color":"#000"});
             $("#one, #two, #three").css({"text-decoration": "none"});
       });
+
 });
 
 // Scrolling Effect
