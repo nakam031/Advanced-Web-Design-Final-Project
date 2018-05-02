@@ -127,9 +127,10 @@ nav ul li a:hover{
       font-size:14px;
 }
 #understand{
-      position:relative;
+      position:absolute;
       display:none;
       width:100%;
+      height:100%;
       z-index:-1;
 }
 
@@ -177,7 +178,135 @@ nav ul li a:hover{
       margin-left:-230px;
 }
 
-@media(max-width: 800px) {
+#wld_title{
+/*      position: absolute;
+      left:50%;
+      margin-left:-420px;
+      margin-top:1100px;*/
+      font-size:50px;
+      color:#fff;
+      text-align: center;
+
+}
+
+#wild_text{
+      position: absolute;
+      width:350px;
+      height:350px;
+      background-color:#3e485299;
+      left:50%;
+      /*text-align:center;*/
+      margin-left:-490px;
+      margin-top:1050px;
+      padding:10px 25px 20px 25px;
+
+}
+
+#imagethree{
+      position:absolute;
+      width:750px;
+      height:450px;
+      /*border:1px solid red;*/
+      background:url(../image/Activities.jpg) no-repeat;
+      background-size:100% 100%;
+      margin-top:1500px;
+      left:50%;
+      margin-left:-500px;      
+}
+
+#hist_title{
+      position:absolute;
+      left:50%;
+      margin-left:250px;
+      margin-top:1640px;
+      font-size:50px;      
+}
+
+#hist_text{
+      position:absolute;
+      width:330px;
+      height:290px;
+      background-color:#3e485299;
+      left:50%;
+      margin-left:190px;
+      margin-top:1700px;
+      padding:25px;      
+}
+
+#imagefour{      
+      position:absolute;
+      width:750px;
+      height:450px;
+      /*border:1px solid red;*/
+      background:url(../image/ice.jpg) no-repeat;
+      background-size:100% 100%;
+      margin-top:2150px;
+      left:50%;
+      margin-left:-230px;
+      margin-bottom:20px;
+}
+
+#insp_title{
+      font-size:50px;
+      color:#fff;
+      text-align: center;      
+}
+#insp_text{
+      position: absolute;
+      width:350px;
+      height:330px;
+      background-color:#3e485299;
+      left:50%;
+      /*text-align:center;*/
+      margin-left:-490px;
+      margin-top:2300px;
+      margin-bottom: 20px;
+      padding:10px 25px 20px 25px;      
+}
+
+#experience{
+      position:relative;
+      display:none;
+      width:100%;
+      z-index:-1;
+
+}
+
+.leftmap{
+      position:absolute;
+      width:50%;
+      height:100vh;
+      background-color: red;
+
+      /*background-image:url("experience_map.jpg");*/
+}
+
+.rightcontent{
+      position:relative;
+      width:50%;
+      left:50%;
+      top:200px;
+
+}
+.exp_title{
+      font-size:50px;
+      margin-left:30px;
+}
+.exp_image{
+
+      width:500px;
+      height:300px;
+      margin-left:50px;
+      background:url(../image/amundsen.jpg) no-repeat;
+      background-size: 100% 100%;
+
+}
+.exp_text{
+      padding-top:20px;
+      padding-left:50px;
+      padding-right:150px;
+}
+/*@media(max-width: 800px) {
 
       .logo {
             position: fixed;
@@ -208,14 +337,14 @@ nav ul li a:hover{
       .menu-icon {
             display: block;
             color:black;
-            /*z-index: 1;*/
+            z-index: 1;
       }
 
       .homeimage{
             width:100%;
             height:100vh;
             background-size:100% auto;
-            /*overflow: hidden;*/
+            overflow: hidden;
       }
 
-}
+}*/

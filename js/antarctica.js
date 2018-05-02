@@ -9,22 +9,24 @@ $(document).ready(function() {
             $(".imagemessage").html(message[x]);
             $(".homeimage").css({"background-image":"url(image/"+image[x]+")"});
 
-       $("#home").click(function(){
-            $(".homeimage").css({"display":"inline-block"});
-            $("#understand").css({"display":"none"});
+       $("#test").click(function(){
+            $("#home").show();
+            $("#understand, #experience").hide();
             $("#one, #two, #three, #four").css({"text-decoration": "none"});           
       });     
 
       $("#one").click(function() {
             $("#one").css({"text-decoration": "underline","color":"#000"});
             $("#two, #three, #four").css({"text-decoration": "none"});
-            $(".homeimage").css({"display":"none"});
-            $("#understand").css({"display":"inline-block"});
+            $(".homeimage, #experience").hide();
+            $("#understand").show();
       });
 
       $("#two").click(function() {
             $("#two").css({"text-decoration": "underline","color":"#000"});
             $("#one, #three, #four").css("text-decoration", "none");
+            $(".homeimage, #understand").hide();
+            $("#experience").show();
       });
 
       $("#three").click(function() {
