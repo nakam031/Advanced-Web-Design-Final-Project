@@ -104,7 +104,7 @@ nav ul li a:hover{
 .antarctica{
       position:relative;
       font-style:bold;
-      font-family:Perpetua;
+      font-family: 'Raleway', sans-serif;
       width:50%;
       text-align: center;
       margin-top:200px;
@@ -117,21 +117,21 @@ nav ul li a:hover{
 .imagemessage{
       position:relative;
       font-style:italic;
-      font-family:Perpetua;
+      font-family:'Raleway', sans-serif;
       width:50%;
       text-align: center;
       margin-top:40px;
       margin-left:auto;
       margin-right:auto;
       margin-bottom:auto;
-      color:#000;
+      color:#fff;
       font-size:30px;
 }
 
 .text{
-      font:Gill Sans MT;
+      font-family:Segoe UI;
       color:#fff;
-      font-size:14px;
+      font-size:16px;
 }
 #understand{
       position:absolute;
@@ -143,39 +143,39 @@ nav ul li a:hover{
 
 #imageone{
       position:absolute;
-      width:750px;
+      width:850px;
       height:450px;
       /*border:1px solid red;*/
       background:url(../image/mcmurdo.jpg) no-repeat;
       background-size:100% 100%;
       margin-top:250px;
       left:50%;
-      margin-left:-500px;
+      margin-left:-600px;
       /*left:250px;*/
 }
 
 #adv_title{
       position:absolute;
       left:50%;
-      margin-left:200px;
+      margin-left:180px;
       margin-top:390px;
       font-size:50px;
 }
 
 #adv_text{
       position:absolute;
-      width:350px;
+      width:400px;
       height:330px;
       background-color:#3e485299;
       left:50%;
-      margin-left:170px;
+      margin-left:120px;
       margin-top:450px;
       padding:25px;
 }
 
 #imagetwo{
       position:absolute;
-      width:750px;
+      width:850px;
       height:450px;
       /*border:1px solid red;*/
       background:url(../image/penguin.jpg) no-repeat;
@@ -198,56 +198,56 @@ nav ul li a:hover{
 
 #wild_text{
       position: absolute;
-      width:350px;
-      height:350px;
+      width:400px;
+      height:380px;
       background-color:#3e485299;
       left:50%;
       /*text-align:center;*/
       margin-left:-490px;
-      margin-top:1050px;
+      margin-top:1100px;
       padding:10px 25px 20px 25px;
 
 }
 
 #imagethree{
       position:absolute;
-      width:750px;
+      width:850px;
       height:450px;
       /*border:1px solid red;*/
       background:url(../image/Activities.jpg) no-repeat;
       background-size:100% 100%;
-      margin-top:1500px;
+      margin-top:1580px;
       left:50%;
-      margin-left:-500px;      
+      margin-left:-600px;      
 }
 
 #hist_title{
       position:absolute;
       left:50%;
-      margin-left:250px;
-      margin-top:1640px;
+      margin-left:230px;
+      margin-top:1730px;
       font-size:50px;      
 }
 
 #hist_text{
       position:absolute;
-      width:330px;
-      height:290px;
+      width:370px;
+      height:320px;
       background-color:#3e485299;
       left:50%;
-      margin-left:190px;
-      margin-top:1700px;
+      margin-left:150px;
+      margin-top:1790px;
       padding:25px;      
 }
 
 #imagefour{      
       position:absolute;
-      width:750px;
+      width:850px;
       height:450px;
       /*border:1px solid red;*/
       background:url(../image/ice.jpg) no-repeat;
       background-size:100% 100%;
-      margin-top:2150px;
+      margin-top:2200px;
       left:50%;
       margin-left:-230px;
       margin-bottom:20px;
@@ -260,13 +260,13 @@ nav ul li a:hover{
 }
 #insp_text{
       position: absolute;
-      width:350px;
-      height:330px;
+      width:370px;
+      height:350px;
       background-color:#3e485299;
       left:50%;
       /*text-align:center;*/
       margin-left:-490px;
-      margin-top:2300px;
+      margin-top:2400px;
       margin-bottom: 20px;
       padding:10px 25px 20px 25px;      
 }
@@ -282,12 +282,15 @@ nav ul li a:hover{
       position: fixed;
       width:50%;
       height:100vh;
+      /*border:1px red solid;*/
 }
 .leftmap{
+      /*position:absolute;*/
+      float:right;
       width:600px;
       height:100vh;
       margin-top:70px;
-      margin-left:150px;
+      /*border:1px solid red;*/
       background-image:url(../image/antarctica.svg);
       background-size:100% 100%;
       z-index: -2;      
@@ -295,16 +298,16 @@ nav ul li a:hover{
       /*background-image:url("experience_map.jpg");*/
 }
 
-#locationone{
+/*#locationone{
       position:absolute;
-      /*border:1px red solid;*/
+      border:1px red solid;
       left:450px;
       top:380px;
       width:50px;
       height:80px;
       background-image: url(../image/locationIcon.svg);
       background-size:100% 100%;
-}
+}*/
 
 
 .rightcontent{
@@ -315,55 +318,115 @@ nav ul li a:hover{
 
 }
 .exp_title{
+      width:600px;
       font-size:30px;
-      margin-left:30px;
       margin-left:50px;
-      padding-right:150px;
       font-family: Segoe UI;
+      text-align:center;
+      /*border:1px red solid;*/
 }
 .exp_image{
 
-      width:500px;
-      height:300px;
+      width:600px;
+      height:350px;
+      /*float:left;*/
       margin-left:50px;
       background:url(../image/amundsen.jpg) no-repeat;
       background-size: 100% 100%;
+      /*border:green 1px solid;*/
 
 }
 .exp_text{
+      width:600px;
       padding-top:20px;
-      padding-left:50px;
-      padding-right:150px;
+      margin-left:50px;
+      /*padding-right:150px;*/
       font-family:Segoe UI;
-      font-size: 14px;
+      font-size: 18px;
+      /*border:blue 1px solid;*/
 }
 #exp_two, #exp_three, #exp_four{
       margin-top:50px;
+      opacity:0.5;
+}
+#exp_four{
+      margin-bottom:300px;
 }
 .exp_imaget{
-      width:500px;
-      height:300px;
+      width:600px;
+      height:350px;
       margin-left:50px;
       background:url(../image/shackleton.jpg) no-repeat;
       background-size: 100% 100%;      
 }
 
 .exp_imageth{
-      width:500px;
-      height:300px;
+      width:600px;
+      height:350px;
       margin-left:50px;
       background:url(../image/paradise_harbor.jpg) no-repeat;
       background-size: 100% 100%;        
 }
 .exp_imagef{
-      width:500px;
-      height:300px;
+      width:600px;
+      height:350px;
       margin-left:50px;
       background:url(../image/southgeorgia.jpg) no-repeat;
       background-size: 100% 100%;        
 }
 
+.travelmap{
+      float:right;
+      width:600px;
+      height:100vh;
+      margin-top:70px;
+      margin-left:150px;
+      background-image:url(../image/shorttravelmap.svg);
+      background-size:100% 100%;
+      z-index: -2;            
+}
 
+#short{      
+      position:relative;
+      display:none;
+      width:100%;
+      z-index:-1;
+}
+
+.travel_title{
+      width:600px;
+      font-size:30px;
+      margin-left:50px;
+      font-family: Segoe UI;
+      text-align:center;
+      /*border:1px red solid;*/
+}
+.travel_days{
+      width:600px;
+      font-size:20px;
+      margin-left:50px;
+      font-family:Segoe UI;
+      /*border:1px red solid;*/
+      text-align: center;
+}
+
+#long{
+      position:relative;
+      display:none;
+      width:100%;
+      margin-bottom:300px;
+      z-index:-1; 
+}
+.travelmap_l{
+      float:right;
+      width:600px;
+      height:100vh;
+      margin-top:70px;
+      margin-left:150px;
+      background-image:url(../image/longtravelmap.svg);
+      background-size:100% 100%;
+      z-index: -2;            
+}
 /*@media(max-width: 800px) {
 
       .logo {
