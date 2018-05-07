@@ -1,15 +1,15 @@
 $(document).ready(function() {
       $(".menu-icon").on("click", function() {
             $("nav ul").toggleClass("showing");
-      });
-
+       });
+      // $(".homeimage").load(function(){
       var message = ["is remote grandeur","is an ice-crowned wonder","an antipodal abode","is a land of fabled creatures"];
       var image = ["mountain.jpg","ice.jpg","mcmurdo.jpg","penguin.jpg"];
             var x = Math.floor(Math.random()*image.length);
             $(".imagemessage").html(message[x]);
             $(".homeimage").css({"background-image":"url(image/"+image[x]+")"});
-
-       $("#test").click(function(){
+      //});
+       $("#zero").click(function(){
             $("#home").show();
             $("#understand, #experience").hide();
             $("#one, #two, #three, #four").css({"text-decoration": "none"});           
