@@ -2,13 +2,14 @@ $(document).ready(function() {
       $(".menu-icon").on("click", function() {
             $("nav ul").toggleClass("showing");
        });
-      // $(".homeimage").load(function(){
+      
       var message = ["is remote grandeur","is an ice-crowned wonder","an antipodal abode","is a land of fabled creatures"];
       var image = ["mountain.jpg","ice.jpg","mcmurdo.jpg","penguin.jpg"];
+      var color = ["#fff","#000","#000","#fff"];
             var x = Math.floor(Math.random()*image.length);
-            $(".imagemessage").html(message[x]);
+            $(".imagemessage").html(message[x]).css("color",color[x]);
             $(".homeimage").css({"background-image":"url(image/"+image[x]+")"});
-      //});
+            
        $("#zero").click(function(){
             $("#home").show();
             $("#understand, #experience, #short, #long").hide();
@@ -80,16 +81,4 @@ $(document).scroll(function(){
 
       }      
 
-})
-// Scrolling Effect
-
-// $(window).on("scroll", function() {
-//       if($(window).scrollTop()) {
-//             $('nav').addClass('black');
-//       }
-
-//       else {
-//             $('nav').removeClass('black');
-//       }
-// });
-
+});
